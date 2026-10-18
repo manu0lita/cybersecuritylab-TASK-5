@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Avoid committing temporary/raw files or secrets. Review any evidence before commit.
+evidence/actual_access.log
+.env
+*.pcap
