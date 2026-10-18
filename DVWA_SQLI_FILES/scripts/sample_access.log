@@ -1,3 +1,0 @@
-127.0.0.1 - - [18/Oct/2026:09:00:00 +0000] "GET / HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (training-sample)"
-127.0.0.1 - - [18/Oct/2026:09:01:00 +0000] "GET /vulnerabilities/sqli/?id=1%27%20OR%20%271%27%3D%271&Submit=Submit HTTP/1.1" 200 1512 "http://127.0.0.1:4280/vulnerabilities/sqli/" "Mozilla/5.0 (training-sample)"
-127.0.0.1 - - [18/Oct/2026:09:02:00 +0000] "GET /vulnerabilities/sqli/?id=1%27%20AND%20%271%27%3D%272&Submit=Submit HTTP/1.1" 200 700 "http://127.0.0.1:4280/vulnerabilities/sqli/" "Mozilla/5.0 (training-sample)"
