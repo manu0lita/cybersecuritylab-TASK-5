@@ -1,0 +1,8 @@
+Evidence ID,Filename,What it demonstrates,Status,Notes
+E01,E01_dvwa_home.png,DVWA page and verified local URL,Pending,Do not use a cached tab alone; verify the service responds now
+E02,E02_sqli_baseline.png,Normal response for input 1,Pending,Capture actual result
+E03,E03_sqli_quote_test.png,Result of controlled single-quote test,Pending,Record exact output; do not assume error
+E04,E04_sqli_boolean_test.png,Compare true and false boolean conditions,Pending,Save both results if possible
+E05,E05_access_log_detection.png,Log source and detector output,Pending,Real log preferred; synthetic must be labelled synthetic
+E06,E06_remediation_retest.png,Mitigation and retest evidence,Pending,Only mark fixed if you actually changed and verified code/config
+E07,E07_final_report.png,Report/GitHub/video submission overview,Pending,Optional
