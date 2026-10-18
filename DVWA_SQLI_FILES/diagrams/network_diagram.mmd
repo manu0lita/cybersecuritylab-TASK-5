@@ -1,0 +1,8 @@
+flowchart TD
+    T["Tester: Kali Linux"] --> B["Firefox / Burp Suite"]
+    B -->|HTTP loopback| D["DVWA at 127.0.0.1:4280"]
+    D --> DB["DVWA database container"]
+    D --> L["Web / container logs"]
+    L --> DET["Offline log detector"]
+    DET --> IR["Incident worksheet: detect, triage, contain, recover"]
+    IR --> R["Report, evidence register, lessons learned"]
